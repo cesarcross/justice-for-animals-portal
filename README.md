@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Todo:
 
-## Getting Started
+toastify com alertas
+páginas
+estilos mobile e web
+CRUD post
+salvar dados local storage
 
-First, run the development server:
+Home:
+Navbar
+Carrossel
+Search
+Posts
+Sobre
+Videos
+Big footer: https://www.rspca.org.uk/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+export const COLORS = {
+dark: "#001524",
+green: "#445D48",
+yellow: "#D6CC99",
+pink: "#FDE5D4"
+red: "#EE4E4E",
+white: "#fff",
+};
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+/_ Mobile (Portrait) _/
+@media (max-width: 480px) {
+/_ Styles for mobile portrait _/
+}
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+/_ Mobile (Landscape) _/
+@media (min-width: 481px) and (max-width: 767px) {
+/_ Styles for mobile landscape _/
+}
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+/_ Tablets _/
+@media (min-width: 768px) and (max-width: 1024px) {
+/_ Styles for tablets _/
+}
 
-## Learn More
+/_ Small Desktops/Laptops _/
+@media (min-width: 1025px) and (max-width: 1280px) {
+/_ Styles for small desktops and laptops _/
+}
 
-To learn more about Next.js, take a look at the following resources:
+/_ Desktops _/
+@media (min-width: 1281px) and (max-width: 1440px) {
+/_ Styles for desktops _/
+}
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+/_ Large Desktops/Monitors _/
+@media (min-width: 1441px) {
+/_ Styles for large desktops and monitors _/
+}
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+imagens:
+Dogs:
+https://www.brainfacts.org/neuroscience-in-society/neuroscience-in-the-news/2020/icymi-dogs-brains-dont-care-about-faces-101520

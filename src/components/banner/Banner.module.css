@@ -1,0 +1,15 @@
+.bannerContainer {
+  display: flex;
+  background: #001524;
+  width: 100%;
+  justify-content: center;
+  position: fixed;
+  height: 50px;
+}
+
+.text {
+  color: #fff;
+  align-self: center;
+  font-size: 24px;
+  font-family: Impact;
+}

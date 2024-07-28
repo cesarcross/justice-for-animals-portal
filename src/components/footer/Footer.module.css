@@ -1,0 +1,76 @@
+.footer {
+  width: 100%;
+  bottom: 0;
+  height: 200px;
+  text-align: center;
+  background-color: #445d48; /* Cor de fundo, você pode ajustar conforme necessário */
+  padding: 10px 0; /* Espaçamento interno */
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Sombra opcional para o footer */
+}
+
+.footerTitle {
+  color: #445d48;
+  align-self: center;
+  font-size: 28px;
+  font-family: Impact;
+  padding: 30px 0;
+}
+
+.footerSubtitle {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footerText {
+  margin: 0;
+  font-size: 16px;
+}
+
+.footerImg {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.footerImgRatio {
+  width: 350px;
+  height: 70px;
+  margin-bottom: -2px;
+}
+
+.footerInfos {
+  /* background-color: #1f0e44; */
+  background-color: #d6cc99;
+  height: 400px;
+  padding: 10px;
+  color: #445d48;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: auto;
+  text-align: left;
+}
+
+.footerLinksTexts {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 769px) {
+  .footerLinks {
+    flex-direction: row;
+    width: 600px;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .footerImgRatio {
+    width: 700px;
+    height: 140px;
+    margin-top: 150px;
+  }
+}
