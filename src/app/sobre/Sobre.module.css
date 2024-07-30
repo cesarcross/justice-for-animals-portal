@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Impact;
+}
+
+.text {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  width: 300px;
+  align-self: center;
+}
+
+.lawCard {
+  display: flex;
+  flex-direction: column;
+  background-color: #d6cc99;
+  margin-bottom: 10px;
+  max-width: 770px;
+}
+
+.lawTitle {
+  color: #fff;
+  font-weight: bold;
+  padding: 5px;
+  background-color: #001524;
+  height: 50px;
+  align-content: center;
+}
+
+.lawText {
+  text-align: justify;
+  padding: 5px;
+  /* height: 150px; */
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 80px;
+  }
+
+  .lawTitle {
+    padding-left: 20px;
+  }
+
+  .lawText {
+    padding: 20px;
+  }
+}

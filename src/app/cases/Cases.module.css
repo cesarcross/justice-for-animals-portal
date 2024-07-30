@@ -1,8 +1,6 @@
 .container {
   width: 100%;
   background-color: #fde5d4;
-  /* height: 500px;
-  padding-bottom: 50px; */
 }
 
 .text {
@@ -23,6 +21,7 @@
   padding-top: 50px;
   padding: 10px;
   flex-direction: column;
+  max-width: 1025px;
 }
 
 .aboutDogImage {
@@ -66,8 +65,8 @@
   }
 
   .aboutDogImage {
-    width: 450px;
-    height: 300px;
+    width: 400px;
+    height: 350px;
     padding-bottom: 0;
   }
 

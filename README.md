@@ -57,3 +57,8 @@ white: "#fff",
 imagens:
 Dogs:
 https://www.brainfacts.org/neuroscience-in-society/neuroscience-in-the-news/2020/icymi-dogs-brains-dont-care-about-faces-101520
+
+Standard YouTube videos: Aspect ratio: 16:9 only;
+Dimensions supported (in pixels): 426 x 240, 640 x 360,
+854 x 480, 1280 x 720, 1920 x 1080,
+2560 x 1440, 3840 x 2160; Size limit: 128 GB maximum (or 12 hours irrespective of size);

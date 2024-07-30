@@ -1,25 +1,45 @@
 "use client";
 
 import { casesData } from "@/utils/data/casesData";
-import { useRouter } from "next/navigation";
+import Image from "next/image";
+import Link from "next/link";
+import styles from "./Case.module.css";
 
 const Case = ({ params }) => {
-  // const router = useRouter();
   const { id } = params;
   const caseData = casesData.find((e) => e.id === id);
 
-  console.log("id", typeof id);
-  console.log("casesData", casesData);
+  if (!id) {
+    return (
+      <div>
+        <p>Nenhum caso encontrado</p>
+      </div>
+    );
+  }
 
-  // if (!id) {
-  //   return <p>Case not found</p>;
-  // }
+  const processo =
+    "https://www.jusbrasil.com.br/processos/243543241/processo-n-000XXXX-8420198260090-do-tjsp";
 
   return (
-    <div>
-      <h1>Hello</h1>
-      <p>{caseData.id}</p>
-      <p>{caseData.description}</p>
+    <div className={styles.container}>
+      <div>
+        <Image src={caseData.imageSrc} className={styles.image} />
+        <p className={styles.title}>{caseData.title}</p>
+        <p className={styles.description}>{caseData.description}</p>
+      </div>
+      <div className={styles.statusContainer}>
+        <p className={styles.statusTitle}>Situação:</p>
+        <p>{caseData.status}</p>
+      </div>
+      <div className={styles.statusContainer}>
+        <p className={styles.statusTitle}>Acompanhe o processo:</p>
+        <Link href={processo}>
+          <p className={styles.statusText}>{caseData.lawsuitNumber}</p>
+        </Link>
+      </div>
+      <Link href="/">
+        <button className={styles.button}>Voltar</button>
+      </Link>
     </div>
   );
 };

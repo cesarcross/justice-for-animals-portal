@@ -48,9 +48,6 @@ export const MobileNavbar = () => {
         <Link href="/sobre" className={styles.link} onClick={handleLinkClick}>
           Sobre
         </Link>
-        <Link href="/conheca" className={styles.link} onClick={handleLinkClick}>
-          Conheça as Leis
-        </Link>
         <Link
           href="/denuncia"
           className={styles.link}
@@ -58,8 +55,12 @@ export const MobileNavbar = () => {
         >
           Envie sua Denúncia
         </Link>
-        <Link href="/contato" className={styles.link} onClick={handleLinkClick}>
-          Contato
+        <Link
+          href="/parceiros"
+          className={styles.link}
+          onClick={handleLinkClick}
+        >
+          Parceiros
         </Link>
         <Link href="/login" className={styles.link} onClick={handleLinkClick}>
           Login / Registre-se

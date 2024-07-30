@@ -1,8 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  padding: 20px;
+}
+
 .formContainer {
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
-  margin-bottom: 30px;
+}
+
+.formContainer input {
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
 }
 
 .socialContainer {
@@ -14,4 +26,65 @@
 .registerContainer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.registerContainer button {
+  display: flex;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Impact;
+}
+
+.text {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.button {
+  color: #445d48;
+  background-color: #fff;
+  padding: 10px;
+  font-family: Impact;
+  font-size: 24px;
+  border: 2px solid #445d48;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* transition: color 0.4s ease, background-color 0.4s ease; */
+}
+
+/* .button:hover {
+  background-color: #001524;
+} */
+
+.socialLoginImg {
+  display: flex;
+  max-width: 310px;
+  height: 180px;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 80px;
+  }
+
+  .formContainer button {
+    width: 300px;
+    align-self: center;
+    margin-bottom: 30px;
+  }
+
+  .registerContainer button {
+    width: 300px;
+    justify-content: center;
+  }
 }

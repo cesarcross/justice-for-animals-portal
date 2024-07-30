@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Impact;
+}
+
+.text {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  margin: 10px 0;
+}
+
+.partnersContainer {
+  margin: auto;
+}
+
+.partners {
+  margin-top: 20px;
+  display: flex;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 80px;
+  }
+
+  .partnersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 770px;
+    margin-top: 80px;
+  }
+
+  .partners {
+    flex-direction: row;
+  }
+}

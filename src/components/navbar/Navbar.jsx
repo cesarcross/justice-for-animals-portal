@@ -53,8 +53,8 @@ export const Navbar = () => {
               <Link href="/denuncia" className={styles.link}>
                 Envie sua Denúncia
               </Link>
-              <Link href="/contato" className={styles.link}>
-                Contato
+              <Link href="/parceiros" className={styles.link}>
+                Parceiros
               </Link>
               <Link href="/login" className={styles.link}>
                 Login

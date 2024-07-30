@@ -8,7 +8,7 @@ const Video = () => {
       <div className={styles.videoContainer}>
         <div className={styles.videoFrame}>
           <iframe
-            src="https://www.youtube.com/embed/P1JLEj-j6RM?si=Es1Pb6xydLzjDf0X"
+            src="https://www.youtube.com/embed/reUp_qp04yI?si=EjPmrHBZmaee0jGm"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -20,6 +20,17 @@ const Video = () => {
         <div className={styles.videoFrame}>
           <iframe
             src="https://www.youtube.com/embed/4UDNcDlNAUo?si=ti4Uz9uyWX8Ehn8Q"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            className={styles.responsiveIframe}
+          ></iframe>
+        </div>
+        <div className={styles.videoFrame}>
+          <iframe
+            src="https://www.youtube.com/embed/P1JLEj-j6RM?si=Es1Pb6xydLzjDf0X"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

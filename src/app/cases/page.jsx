@@ -36,7 +36,7 @@ const Cases = () => {
             autores de maus tratos sejam detidos.
           </p>
           <Link href="/sobre">
-            <button className={styles.button}>Conheça as Leis</button>
+            <button className={styles.button}>Saiba mais</button>
           </Link>
         </div>
 
