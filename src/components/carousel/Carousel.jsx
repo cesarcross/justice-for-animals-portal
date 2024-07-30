@@ -17,7 +17,7 @@ const Carousel = () => {
           <span className={styles.highlightText}>maus tratos</span>
         </span>
         <p className={styles.text}>
-          A cada cinco minutes recebemos uma denúncia. Vamos lutar juntos para
+          A cada cinco minutos recebemos uma denúncia. Vamos lutar juntos para
           prevenir estas ocorrências.
         </p>
         <Link href="./denuncia">
